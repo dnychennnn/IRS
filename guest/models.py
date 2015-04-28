@@ -6,11 +6,7 @@ from django.utils import timezone
 
 
 class Item(models.Model):
-	interval_options = (
-		('hours', 'hours'),
-		('one_week', '一週'),
-		('one_day', '一天')
-		)
+	
 	Item_text = models.CharField(max_length=200)
 	interval = models.CharField(max_length=200)
 	def __str__(self):              # __unicode__ on Python 2
