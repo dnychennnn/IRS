@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+.ui.ordered.steps {
+	position: relative;
+	top: 100px;
+}
+.main.menu {
+	top:0;
+	left:0;
+	height:50px;
+	background-color: black; 
+}
+h1 {
+	position: relative;
+	left: 300;
+	
+
+}
