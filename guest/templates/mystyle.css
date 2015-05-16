@@ -3,17 +3,16 @@ body {
 }
 .ui.ordered.steps {
 	position: relative;
-	top: 100px;
+	top: 275px;
 }
-.main.menu {
-	top:0;
-	left:0;
-	height:50px;
-	background-color: black; 
-}
+
+
 h1 {
 	position: relative;
-	left: 300;
-	
-
+	top: 150px;
+	left: 200;
+}
+.ui.inverted.blue.button {
+	position: relative;
+	top: 300px;
 }
