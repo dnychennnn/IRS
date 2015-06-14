@@ -1,5 +1,9 @@
-import datetime
+# -*- coding: utf-8 -*-
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
+import datetime
 from django.db import models
 from django.utils import timezone
 
